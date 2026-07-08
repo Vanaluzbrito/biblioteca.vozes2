@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Squada+One&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: "Montserrat", sans-serif;
+    background-color:#ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+li, a {
+    font-size: 18px;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+header{
+    background-color:#174e82;
+    width: 100%;
+}
+
+.header-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 18px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.logotipo{
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: bold;
+   
+
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 8px;
+    justify-content: center;
+}
+
+.nav-links li a:hover{
+    color: #39a5a3;
+
+}
+
+
+.sobrebiblio h1{
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight:bold;
+    color: #174e82;
+    max-width: 600px;
+     border-bottom: 3px solid #178281;
+}
+
+.minicont{
+    width: 100%;
+    background-color: #174e82;
+}
+
+.titulosection{
+    max-width:1400px;
+    margin: 10px auto;
+    align-items: left;
+    padding: 10px;
+    color:#ffffff; 
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.conteudohist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    max-width: 1400px;
+    padding: 0px 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.textohist{
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color:#ffffff;
+    flex: 1 1 0;
+    min-width: 280px;
+}
+.imghistoria{
+    width: 450px;
+    display: block;
+    padding: 15px 15px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+.titulosectionmiss{
+    max-width:1400px;
+    margin: 10px auto;
+    align-items: left;
+    padding: 10px;
+    color: #174e82;
+    font-size: 20px;
+    font-weight: 600;
+}
+    
+
+.missao_visao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    max-width: 1400px;
+    padding: 0px 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.textomiss{
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px;
+    padding-bottom: 30px;
+    color: #171882;
+    flex: 1 1 0;
+    min-width: 280px;
+}
+
+.imgmissao{
+    width: 450px;
+    display: block;
+    padding: 15px 15px;
+    flex-shrink: 0;
+}
+
+
+.publialvo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    max-width: 1400px;
+    padding: 0px 10px;
+    background-color: #174e82;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.publialvo p{
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 300;
+    color: #ffffff;
+    flex: 1 1 0;
+    min-width: 280px;
+}
+
+.imgpubli{
+    width: 450px;
+    display: block;
+    padding: 15px 15px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+#footer_contener{
+    background-color: #174e82;
+    width: 100%;
+
+}
+
+.titulo_footer{
+    
+   font-size: 20px;
+   font-weight: 500;
+   text-align: left;
+   color:#ffffff;
+}
+#footer_contacts p{
+    font-size: 15px;
+    font-weight: 500;
+   text-align: left;
+   color:#ffffff;
+  
+}
+
+#footer_contacts{
+    max-width: 1200px;
+    height: 40px;
+    margin: 6px auto;
+    padding: 10px 20px;
+
+
+}
+
+.footer-nav {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 6px auto;
+    flex-wrap: wrap;
+
+
+    
+
+}
+
+.footer-nav a{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+
+}
+
+.footer-nav a:hover{
+     color: #39a5a3;
+}
+
+.footer_direitos{
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    color: #ffffff;
+}
+#footer_social_midia{
+     margin: 0;
+     padding: 10px 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+
+}
+
+@media (max-width: 900px) {
+    .header-inner {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-links {
+        justify-content: center;
+    }
+
+    .conteudohist,
+    .missao_visao,
+    .publialvo {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0 16px 20px;
+    }
+
+    .textohist,
+    .textomiss,
+    .publialvo p {
+        padding: 0 0 20px;
+        font-size: 16px;
+    }
+
+    .imghistoria,
+    .imgmissao,
+    .imgpubli {
+        width: 100%;
+        max-width: 450px;
+        padding: 0 0 10px;
+        margin: 0 auto;
+    }
+     #footer_contacts {
+        height: auto;
+    }
+    .footer-nav a {
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .logotipo {
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links {
+        gap: 6px;
+    }
+
+    .nav-links li {
+        padding: 0 6px;
+    }
+
+    .nav-links li a {
+        font-size: 16px;
+    }
+
+    .sobrebiblio h1 {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    .titulosection,
+    .titulosectionmiss {
+        font-size: 18px;
+    }
+
+    #footer_contacts {
+        height: auto;
+    }
+
+    .footer-nav a {
+        padding: 8px 10px;
+    }
+}
