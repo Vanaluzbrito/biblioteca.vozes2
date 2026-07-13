@@ -167,11 +167,7 @@ header{
 }
 
 
-.card-servico:hover{
-    transform: translateY(-4px);
-    box-shadow: 0 10px 25px -10px rgba(0,0,0,.15);
-    border-color: #2563eb;
-}
+
 
 .titulocard{
    font-size: .9rem; 
